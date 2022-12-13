@@ -9,5 +9,5 @@ string N = Convert.ToString(System.Console.ReadLine());
 char[] s = N.ToCharArray();
 Array.Reverse(s);
 string P = new string(s);
-N = N == P ? "Число " + N + " является палиандромом" : "Число " + N + " НЕ является палиандромом";
+N = N == P ? N + " является палиандромом" : N + " НЕ является палиандромом";
 System.Console.WriteLine(N);
